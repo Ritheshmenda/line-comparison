@@ -6,7 +6,7 @@ namespace lineproblem
     {
         static void Main(string[] args)
         {
-            lineproblem Line = new lineproblem(1,7,4,8,5,1,9,7);
+            lineproblem Line = new lineproblem(1,7,4,8,5,1,9,4);
            
         }
     }

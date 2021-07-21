@@ -23,8 +23,12 @@ namespace lineproblem
             Console.WriteLine("length of line a is :" + lengthofline_a);
             if (lengthofline == lengthofline_a)
                 Console.WriteLine("lines are equal");
+            else if (lengthofline > lengthofline_a)
+                Console.WriteLine("length of line is greater");
             else
-                Console.WriteLine("lines are not equal");
+                Console.WriteLine("length of line_a is greater");
+
+                
         }
     }
 }
