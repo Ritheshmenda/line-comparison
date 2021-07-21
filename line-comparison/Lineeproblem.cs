@@ -4,11 +4,17 @@ using System.Text;
 
 namespace lineproblem
 {
-    class Lineeproblem
+    class lineproblem
     {
-        public void Introduction()
+        int x1, x2, x3, x4, y1, y2, y3, y4;
+        public lineproblem(int x1, int x2, int y1, int y2)
         {
-            Console.WriteLine("welcome to the employee wage problem");
+            this.x1 = x1;
+            this.x2 = x2;
+            this.y1 = y1;
+            this.y2 = y2;
+            double lengthofline = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
+            Console.WriteLine("length of line is:"+lengthofline);
         }
     }
 }

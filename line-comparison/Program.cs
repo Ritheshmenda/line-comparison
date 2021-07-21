@@ -4,10 +4,10 @@ namespace lineproblem
 {
     class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Lineeproblem Line = new Lineeproblem();
-            Line.Introduction();
+            lineproblem Line = new lineproblem(1,7,4,8);
+           
         }
     }
 }
