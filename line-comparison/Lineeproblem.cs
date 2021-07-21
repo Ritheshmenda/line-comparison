@@ -7,7 +7,7 @@ namespace lineproblem
     class lineproblem
     {
         int x1, x2, x3, x4, y1, y2, y3, y4;
-        public lineproblem(int x1, int x2, int y1, int y2)
+        public lineproblem(int x1, int x2, int y1, int y2,int x3, int x4, int y3, int y4)
         {
             this.x1 = x1;
             this.x2 = x2;
@@ -15,6 +15,16 @@ namespace lineproblem
             this.y2 = y2;
             double lengthofline = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
             Console.WriteLine("length of line is:"+lengthofline);
+            this.x3 = x3;
+            this.x4 = x4;
+            this.y3 = y3;
+            this.y4 = y4;
+            double lengthofline_a = Math.Sqrt(Math.Pow((x4 - x3), 2) + Math.Pow((y4 - y3), 2));
+            Console.WriteLine("length of line a is :" + lengthofline_a);
+            if (lengthofline == lengthofline_a)
+                Console.WriteLine("lines are equal");
+            else
+                Console.WriteLine("lines are not equal");
         }
     }
 }
