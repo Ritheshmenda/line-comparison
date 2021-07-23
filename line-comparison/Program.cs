@@ -14,10 +14,8 @@ namespace lineproblem
             Console.WriteLine("length of line 2 =" + Length2);
             if (Length1 == Length2)
                 Console.WriteLine("Result:Both lines are equal");
-            else if (Length1 < Length2)
-                Console.WriteLine("Result:length1 is less than length2");
             else
-                Console.WriteLine("Result:length1 is not less than length2");
+                Console.WriteLine("Result:length1 is not equal to length2");
         }
     }
 }
