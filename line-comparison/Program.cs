@@ -10,7 +10,7 @@ namespace lineproblem
             double Length1 = Line1.Linecomparison();
             lineproblem Line2 = new lineproblem(8, 4, 7, 1);
             double Length2 = Line2.Linecomparison();
-
+            Console.WriteLine("length of line 1 =" + Length1);
             Console.WriteLine("length of line 2 =" + Length2);
             if (Length1 == Length2)
                 Console.WriteLine("Result:Both lines are equal");
