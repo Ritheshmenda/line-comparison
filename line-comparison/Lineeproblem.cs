@@ -6,14 +6,6 @@ namespace lineproblem
 {
     class lineproblem
     {
-<<<<<<< HEAD
-         public lineproblem()
-        {
-            Console.WriteLine("welcome to the line problem");
-
-        }
-        
-=======
         int x1, x2, y1, y2;
         public lineproblem(int x1, int x2, int y1, int y2)
         {
@@ -29,7 +21,7 @@ namespace lineproblem
         }
 
 
->>>>>>> uc3-comparison
+
     }
    
 }

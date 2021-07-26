@@ -6,9 +6,7 @@ namespace lineproblem
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-           lineproblem Line = new lineproblem();                               
-=======
+                             
             lineproblem Line1 = new lineproblem(1, 7, 4, 8);
             double Length1 = Line1.Linecomparison();
             lineproblem Line2 = new lineproblem(1, 7, 4,8);
@@ -22,14 +20,14 @@ namespace lineproblem
             else if (Length1 < Length2)
             {
                 Console.WriteLine("Result:line 1 is less then line2");
-                Console.WriteLine("Result:length1 is not equal to length2");
+                
             }
             else
             {
                 Console.WriteLine("Result:length1 is not equal to length2");
-                Console.WriteLine("Result:line 1 is greater then line2");
+               
             }
->>>>>>> uc3-comparison
+
         }
     }
 }
