@@ -19,9 +19,6 @@ namespace lineproblem
             double lengthofline = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
             return lengthofline;
         }
-
-
-
     }
    
 }
